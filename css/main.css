@@ -51,11 +51,12 @@ PAGE: PRESS TEMPLATE
 .Press-Headline, 
 .Press-Date {
 	text-transform: uppercase;
+	color: #000;
 }
 
 .Press-Date {
-	color: #CFD1D5;
-	font-size: 1em;
+	color: grey;
+	font-size: .75em;
 	margin: 0;
 	padding: 0;
 }
@@ -63,7 +64,7 @@ PAGE: PRESS TEMPLATE
 .Press-Link p {
 	margin: 0;
 	padding: 0;
-	display: block;
+	
 }
 
 
@@ -223,6 +224,7 @@ PAGE: HOME
 	max-width: 80%;
 	padding: 5%;
 }
+
 
 
 
