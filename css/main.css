@@ -1,0 +1,302 @@
+/*************************
+GENERAL STYLES
+*************************/
+
+
+
+/* links */
+a {
+	text-decoration: none;
+}
+
+/* body color and font */
+body {
+	background-color: #fff;
+	
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+
+}
+
+.selected {
+	color: #660066;
+}
+
+/*************************
+FONTS
+*************************/
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	font-family: 'Fredoka One', sans-serif;
+}
+
+/*************************
+PAGE: PRESS TEMPLATE
+*************************/
+
+
+
+.Press-Headline, 
+.Press-Date {
+	text-transform: uppercase;
+}
+
+.Press-Date {
+	color: #CFD1D5;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+.Press-Link p {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+
+/*************************
+PAGE: GALLERY TEMPLATE
+*************************/
+
+
+
+/* gallery structure */
+.Wrapper-Gallery {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+.gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	color: #bdc3c7;
+}
+
+.gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #000;
+}
+
+/***************************** 
+PAGE: CONTACT
+******************************/
+
+.Wrapper-Contact {
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 5%;
+}
+
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 5px;
+	color: #000;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a{
+	background-image: url('../img/twitter-contact.png');
+}
+
+/*************************
+NAVIGATION
+*************************/
+
+
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+	font-size: 1.2em;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+/* nav link styling */
+nav a {
+	color: #000;
+	display: block;
+	min-height: 20px;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 5px;
+}
+
+/* nav list item  */
+nav li {
+	margin: 5px;
+}
+
+
+
+
+
+/* nav link selected with logo */
+/*nav a.selected {
+	background-image: url('../img/tiny-logo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50px 50px;
+	padding: 30px;
+}*/
+
+
+/* Mailchimp */
+
+#mc_embed_signup {
+	text-align: center;
+	padding: 3px;
+	display: block;
+	margin: 0 auto;
+}
+
+.clear {
+	padding-top: 5px;
+}
+
+/*************************
+PAGE: HOME
+*************************/
+
+
+
+.logo-center {
+	display: block;
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 5%;
+}
+
+.wrapper, .Wrapper-Contact, .Wrapper-Location {
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 5%;
+}
+
+
+
+
+/*************************
+PAGE: LOCATION
+*************************/
+
+
+
+.Temp-Image {
+	display: block;
+	max-width: 80%;
+	margin: 0 auto 30px;
+	border-radius: 5%; /* adds rounded corners */
+}
+
+
+
+/*************************
+FOOTER
+*************************/
+
+
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+	clear: both;
+}
+
+
+.social-icon {
+	width: 20px;
+	height: 21px;
+	padding-bottom: 0;
+	margin: 0 5px;
+}
+
+.SendEmail {
+	text-decoration: none;
+	color: #000;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.Footer-Contact {
+	color: #000;
+	padding: 0;
+}
+
+.Footer-Contact a {
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*************************
+NAVIGATION BAR TO TEST
+*************************/
+
+/*ul li.selected a {
+	background-image: url('../img/tiny-logo.png');
+	background-repeat: no-repeat;
+}
+
+nav a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 5px;
+}*/
