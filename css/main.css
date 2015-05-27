@@ -68,6 +68,27 @@ PAGE: PRESS TEMPLATE
 }
 
 
+.gallery a img {
+	display: inline-block;
+}
+
+.pressBox a {
+	margin: 100px;
+	padding: 10px;
+}
+
+
+/*************************
+PAGE: GALLERY TEMPLATE/FLAVORS
+*************************/
+
+p {
+	padding: 0 15px;
+}
+
+.Wrapper-Gallery li {
+
+}
 /*************************
 PAGE: GALLERY TEMPLATE
 *************************/
@@ -78,27 +99,38 @@ PAGE: GALLERY TEMPLATE
 .Wrapper-Gallery {
 	max-width: 940px;
 	margin: 0 auto;
-	padding: 0 5%;
+	padding: 0;
+
 }
 
 .gallery {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	list-style: none;
+	display: block;
 }
 
 .gallery li {
 	float: left;
-	width: 45%;
-	margin: 2.5%;
+	margin: 1.5%;
+	padding: 1%;
 	color: #bdc3c7;
+	background-color: lightgray;
+}
+
+.gallery li:hover {
+	background-color: #c26de9;
 }
 
 .gallery li a p {
 	margin: 0;
-	padding: 5%;
-	font-size: 0.75em;
+	padding: 0;
+	font-size: .9em;
 	color: #000;
+}
+
+.gallery li:nth-child(6n+4) {
+	clear: left;
 }
 
 /***************************** 
