@@ -115,12 +115,12 @@ PAGE: GALLERY TEMPLATE
 	margin: 1.5%;
 	padding: 1%;
 	color: #bdc3c7;
-	background-color: lightgray;
+	border: solid 1px #a9a9a9;
 }
 
-.gallery li:hover {
+/*.gallery li:hover {
 	background-color: #c26de9;
-}
+}*/
 
 .gallery li a p {
 	margin: 0;
