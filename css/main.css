@@ -55,7 +55,7 @@ PAGE: PRESS TEMPLATE
 }
 
 .Press-Date {
-	color: grey;
+	color: #666666;
 	font-size: .75em;
 	margin: 0;
 	padding: 0;
@@ -68,27 +68,18 @@ PAGE: PRESS TEMPLATE
 }
 
 
-.gallery a img {
-	display: inline-block;
-}
-
-.pressBox a {
-	margin: 100px;
-	padding: 10px;
-}
-
-
 /*************************
 PAGE: GALLERY TEMPLATE/FLAVORS
 *************************/
 
-p {
-	padding: 0 15px;
+.flavorsPara {
+	padding: 0 24% 0 27%;
 }
 
 .Wrapper-Gallery li {
-
+	margin-left: 24%;
 }
+
 /*************************
 PAGE: GALLERY TEMPLATE
 *************************/
@@ -97,25 +88,22 @@ PAGE: GALLERY TEMPLATE
 
 /* gallery structure */
 .Wrapper-Gallery {
-	max-width: 940px;
+	max-width: 90%;
 	margin: 0 auto;
 	padding: 0;
-
 }
 
 .gallery {
 	margin: 0 auto;
 	padding: 0;
-	list-style: none;
-	display: block;
+	width: 100%;
 }
 
 .gallery li {
-	float: left;
-	margin: 1.5%;
-	padding: 1%;
-	color: #bdc3c7;
-	border: solid 1px #a9a9a9;
+	float: none;
+	list-style: none;
+	margin: 5%;
+	padding: .5%;
 }
 
 /*.gallery li:hover {
@@ -129,9 +117,9 @@ PAGE: GALLERY TEMPLATE
 	color: #000;
 }
 
-.gallery li:nth-child(6n+4) {
+/*.gallery li:nth-child(3n+4):after {
 	clear: left;
-}
+}*/
 
 /***************************** 
 PAGE: CONTACT
